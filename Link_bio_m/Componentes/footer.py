@@ -14,12 +14,12 @@ def footer() -> rx.Component:
             height=EmSize.VERY_BIG.value,     #alto del logo
             width=EmSize.VERY_BIG.value,      #ancho del logo
             alt="logotipo de no se que\"eme\"entre llaves",  #esto es para personas ividentes
-            margin_top=EmSize.BIG.value,
+           # margin_top=EmSize.BIG.value,
         ),
         rx.link(
             rx.box(
                 #rx.hstack(
-                f"fecha {datetime.date.today()}",
+                f"© 2014-{datetime.date.today().year} ",# dia actual f"fecha {datetime.date.today()}",
                     rx.text(
                         "trabajo con excelencia   ",
                          as_="span",

@@ -10,9 +10,9 @@ def sponsors() -> rx.Component:
         title("Creyente & Hijos"),
           rx.flex(
                Link_sponsor(
-                    "/AvatarC.jpeg",
+                    "/AvatarC.png",
                     const.CARPINTERIA, 
-                    "simbolo de carpinteria"        
+                    "Avatar"        
                ),
                Link_sponsor(
                     "/logocrebla.png",
@@ -25,6 +25,6 @@ def sponsors() -> rx.Component:
           ),
        
         width="100%",
-        align_items="start",
+        align_items="center",
         spacing=Size.DEFAULT.value
     )
