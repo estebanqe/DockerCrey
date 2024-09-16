@@ -18,7 +18,7 @@ def header(details=True) -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                name="César Quiña",
+                name="César J. Quiña",
                 size=Size.MEDIUM_BIG.value,
                 src="/AvatarC.jpeg",
                 radius="full",
