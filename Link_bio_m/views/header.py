@@ -36,7 +36,7 @@ def header(details=True) -> rx.Component:
                     size=Size.BIG.value
                 ),
                 rx.text(
-                    "César Quiña",
+                    "César J. Quiña",
                     margin_top=EmSize.ZERO.value,
                     color=Color.PRIMARY.value
                 ),
@@ -79,7 +79,7 @@ def header(details=True) -> rx.Component:
                 rx.flex(
                     info_text(
                         "+4",
-                        "años de experiencia"
+                        "años de mucha experiencia"
                     ),
                     rx.spacer(),                                    #crea un espacio ficticio entre texto
                     info_text(
